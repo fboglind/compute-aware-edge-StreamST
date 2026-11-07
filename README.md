@@ -9,9 +9,7 @@ The main experiment covers six recordings and 96 runs. Supplementary work includ
 - [Setup, reproduction and tests](REPRODUCE.md)
 - [Code guide and dependencies](CODE_GUIDE.md)
 - [Pipeline walkthrough](notebooks/01_pipeline_walkthrough.ipynb) and [QC notebook](quality-control/TinyML_translation_QC.ipynb)
-- [Fixed 4-second versus 8-second demonstration] https://github.com/user-attachments/assets/510bb308-7d03-4b52-889d-9d8e878082f4
 
-
-
+<video src="https://github.com/user-attachmentsassets/510bb308-7d03-4b52-889d-9d8e878082f4"controls></video>
 
 The notebooks read included results without running models or calling APIs. [Recorded evidence](evidence/README.md) includes aggregate results and selected complete runs. Audio and model weights are obtained separately; setup instructions are in the reproduction guide.
