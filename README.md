@@ -4,10 +4,14 @@ Cascaded English-to-German speech translation on a Raspberry Pi 5 and a ThinkPad
 
 The main experiment covers six recordings and 96 runs. Supplementary work includes Whistle ASR, LocalAgreement and exploratory translation quality control (Jev reviewer -> Sonnet 5.5 evaluator + manual inspection).
 
-- [Final report](reports/report.pdf), [presentation](reports/presentation.pdf) and [demo](reports/fixed-4s-vs-8s.mp4)
+- [Final report](reports/report.pdf), [presentation](reports/presentation.pdf)
 - [Results and figures](analysis/main/README.md)
 - [Setup, reproduction and tests](REPRODUCE.md)
 - [Code guide and dependencies](CODE_GUIDE.md)
 - [Pipeline walkthrough](notebooks/01_pipeline_walkthrough.ipynb) and [QC notebook](quality-control/TinyML_translation_QC.ipynb)
+- [Fixed 4-second versus 8-second demonstration] https://github.com/user-attachments/assets/510bb308-7d03-4b52-889d-9d8e878082f4
+
+
+
 
 The notebooks read included results without running models or calling APIs. [Recorded evidence](evidence/README.md) includes aggregate results and selected complete runs. Audio and model weights are obtained separately; setup instructions are in the reproduction guide.
